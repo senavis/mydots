@@ -3,7 +3,7 @@
 # Bootstrap new configuration.
 cd
 rm -rf dotfiles/ .config/nvim/ .tmux.conf .vim/
-git clone --quiet https://github.com/mporras/dotfiles.git
+git clone --quiet https://github.com/senavis/mydots.git
 mkdir .config/nvim/ .vim/
 ln -s ~/dotfiles/init.vim ~/.config/nvim/init.vim
 ln -s ~/dotfiles/vimrc.symlink ~/.vimrc
