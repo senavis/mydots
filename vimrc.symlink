@@ -6,7 +6,7 @@
 "   autocmd VimEnter * PlugInstall
 " endif
 
-source ~/dotfiles/plugins.vim "load the plugins
+source ~/mydots/plugins.vim "load the plugins
 
 let mapleader="," "leader key
 
