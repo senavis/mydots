@@ -2,15 +2,15 @@
 
 # Bootstrap new configuration.
 cd
-rm -rf dotfiles/ .config/nvim/ .tmux.conf .vim/
+rm -rf mydots/ .config/nvim/ .tmux.conf .vim/
 git clone --quiet https://github.com/senavis/mydots.git
 mkdir .config/nvim/ .vim/
-ln -s ~/dotfiles/init.vim ~/.config/nvim/init.vim
-ln -s ~/dotfiles/vimrc.symlink ~/.vimrc
-ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
+ln -s ~/mydots/init.vim ~/.config/nvim/init.vim
+ln -s ~/mydots/vimrc.symlink ~/.vimrc
+ln -s ~/mydots/tmux.conf ~/.tmux.conf
 
 # Configure Git.
-dotfiles/git-config
+mydots/git-config
 
 echo 'Starting Vim to install plugins...'
 #nvim
