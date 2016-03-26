@@ -1,13 +1,15 @@
 #!/usr/bin/env sh
 
 # Bootstrap new configuration.
+
 cd
 rm -rf mydots/ .config/nvim/ .tmux.conf .vim/ .vimrc
 git clone --quiet https://github.com/senavis/mydots.git
-mkdir .config/nvim/ .vim/
+mkdir .config/nvim/ .vim/ .vim/colors
 ln -s ~/mydots/init.vim ~/.config/nvim/init.vim
 ln -s ~/mydots/vimrc.symlink ~/.vimrc
 ln -s ~/mydots/tmux.conf ~/.tmux.conf
+ln -s ~/mydots/badwolf.vim ~/.vim/colors/badwolf.vim
 
 # Configure Git.
 mydots/git-config
