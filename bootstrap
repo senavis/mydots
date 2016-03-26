@@ -2,7 +2,7 @@
 
 # Bootstrap new configuration.
 cd
-rm -rf mydots/ .config/nvim/ .tmux.conf .vim/
+rm -rf mydots/ .config/nvim/ .tmux.conf .vim/ .vimrc
 git clone --quiet https://github.com/senavis/mydots.git
 mkdir .config/nvim/ .vim/
 ln -s ~/mydots/init.vim ~/.config/nvim/init.vim
