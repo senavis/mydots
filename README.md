@@ -3,7 +3,7 @@ TBD
 Bootstrap for Linux
 1. Install git
 2. Install tmux, vim
-3. Optionally install neovim
+3. Optionally install neovim and change the bootstrap to load nvim instead of vim
 4. Run the bootstrap
     sh -c "$(curl -fsSL https://raw.github.com/senavis/mydots/master/bootstrap)"
 5. Install missing plugins like "Exuberant-Tags", etc
