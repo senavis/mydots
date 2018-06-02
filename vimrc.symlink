@@ -54,6 +54,8 @@ set colorcolumn=+1
 "for colorscheme {{{
 set background=dark
 let base16colorspace=256
+set t_Co=256
+" set term=screen-256color
 colorscheme badwolf
 
 " if $TERM_PROGRAM =~ "iTerm.app"
