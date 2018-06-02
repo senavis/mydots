@@ -1,0 +1,1 @@
+/home/siva/neovim-config/init.vim
